@@ -359,16 +359,6 @@ class State:
 
         return score
 
-    # def pawn_structure(self):
-    #     score = 0
-    #     for color in [chess.WHITE, chess.BLACK]:
-    #         pawns = self.board.pieces(chess.PAWN, color)
-    #         files = [chess.square_file(sq) for sq in pawns]
-
-    #         for sq in files:
-    #             f = chess.square_file(sq)
-    #             r = chess.square_file(sq)
-
     # evaluation function
     def evaluate(self):
         # Step 1: Handle finished games
