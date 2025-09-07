@@ -435,7 +435,7 @@ def minimax(state, depth, alpha, beta, maximizingPlayer, maxDepth):
 
 def play_game():
     current_state = State(player=True)  # White starts
-    maxDepth = 3  # Try experimenting with the Search depth for more inteligent ai
+    maxDepth = 6  # Try experimenting with the Search depth for more inteligent ai
     game_board = display.start()  # Initialize the GUI
 
     print("Artificial Intelligence – Assignment 3")
